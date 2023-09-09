@@ -9,11 +9,9 @@
     color: #ADD8E6; /* Red color for the "Ecommerce" text */
     font-weight: bold;
   }
-  
-  .navbar-toggler-icon {
-    background-color: #ADD8E6; /* Red color for the toggler icon */
+  .navbar-toggler{
+    background: #2a3eb1;
   }
-  
   .nav-link {
     color: #fff; /* White color for nav links */
   }
