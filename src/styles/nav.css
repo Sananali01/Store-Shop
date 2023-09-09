@@ -1,0 +1,37 @@
+/* Add this CSS to your stylesheet */
+.navbar {
+    background: linear-gradient(90deg, #2a3eb1, #231f20); /* Gradient background */
+    animation: fadeInUp 0.5s ease-in-out;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .navbar-brand span {
+    color: #ADD8E6; /* Red color for the "Ecommerce" text */
+    font-weight: bold;
+  }
+  
+  .navbar-toggler-icon {
+    background-color: #ADD8E6; /* Red color for the toggler icon */
+  }
+  
+  .nav-link {
+    color: #fff; /* White color for nav links */
+  }
+  
+  .nav-link:hover {
+    color: #ADD8E6; /* Red color on hover */
+  }
+  
+  .buttons .btn {
+    background-color: transparent;
+    border: 1px solid #fff; /* White border for buttons */
+    color: #fff; /* White color for button text */
+    transition: background-color 0.3s ease-in-out, border-color 0.3s ease-in-out;
+  }
+  
+  .buttons .btn:hover {
+    background-color: #ADD8E6; /* Red background on hover */
+    border-color: #ADD8E6; /* Red border on hover */
+    transform: scale(1.1); /* Button scale on hover for an animation effect */
+    box-shadow: 0px 0px 10px rgba(240, 6, 6, 0.5); /* Red box shadow on hover */
+  }

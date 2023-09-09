@@ -1,0 +1,86 @@
+/* checkout.css */
+
+/* Update background color */
+body {
+    background: linear-gradient(90deg, #ADD8E6, #000000);
+    
+}
+
+/* Style the main container */
+.container.my-3.py-3 {
+    background-color: transparent; /* Remove the black background */
+    border-radius: 0; /* Remove border-radius */
+    box-shadow: none; /* Remove the box shadow */
+    padding: 0; /* Remove padding */
+}
+
+/* Style the header */
+h1.text-center {
+    color: #ADD8E6; /* Light Blue color */
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+/* Style the order summary card */
+.card-header.py-3 {
+    background-color: rgba(0, 0, 0, 0.1); /* Transparent black background */
+}
+
+/* Style the form inputs */
+.form-control {
+    background-color: rgba(0, 0, 0, 0.1); /* Transparent black background */
+    border: none; /* Remove the border */
+    border-bottom: 2px solid #ADD8E6; /* Light Blue border */
+    color: #ADD8E6; /* Light Blue color */
+}
+
+/* Style the buttons */
+.btn-primary {
+    background-color: #000000; /* Black background */
+    border: none;
+    transition: background-color 0.3s ease-in-out;
+    box-shadow: 0 0 10px rgba(173, 216, 230, 0.5); /* Add a glow effect similar to login.css */
+}
+
+.btn-primary:hover {
+    background-color: #ADD8E6; /* Light Blue background on hover */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5); /* Increase the glow effect on hover */
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+/* Style the card headers */
+.card-header {
+    background-color: #ADD8E6;
+    color: #000;
+}
+/* Add more custom styles as needed */
+
+/* Add this keyframe for fadeInUp animation */
+@keyframes fadeInUp {
+    0% {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+.card {
+    animation: fadeInUp 0.5s ease-in-out;
+}
+
+/* Add an animation to the Order Summary card */
+.card.mb-4 {
+    opacity: 0;
+    animation: fadeIn 0.5s ease-in-out forwards;
+}
+
+@keyframes fadeIn {
+    to {
+        opacity: 1;
+    }
+}

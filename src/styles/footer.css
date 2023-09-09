@@ -1,0 +1,96 @@
+/* Add this CSS to your stylesheet */
+footer {
+    background: linear-gradient(90deg, #2a3eb1, #231f20); /* Gradient background */
+    animation: fadeInUp 0.5s ease-in-out;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  footer h4 {
+    color: #ADD8E6; /* Text color for header */
+    font-weight: bold;
+  }
+  
+  .social-icons a {
+    color: #fff; /* White color for social icons */
+  }
+  
+  .social-icons a:hover {
+    color: #ADD8E6; /* Red color on hover for social icons */
+  }
+  
+  .email-section {
+    background-color: #231f20; /* Background color for email section */
+    padding: 20px;
+    border-radius: 5px;
+  }
+  
+  .email-section h4 {
+    color: #ADD8E6; /* Text color for email section header */
+    font-weight: bold;
+  }
+  
+  .email-section .form-control {
+    background-color: transparent;
+    border: 1px solid #fff; /* White border for input */
+    color: #fff; /* White text color for input */
+  }
+  
+  .email-section .form-control::placeholder {
+    color: #fff; /* White placeholder text color */
+  }
+  
+  .email-section .btn-primary {
+    background-color: transparent;
+    border: 1px solid #ADD8E6; /* Red border for subscribe button */
+    color: #ADD8E6; /* Text color for subscribe button */
+    transition: background-color 0.3s ease-in-out, border-color 0.3s ease-in-out;
+  }
+  
+  .email-section .btn-primary:hover {
+    background-color: #ADD8E6; /* Red background on hover for subscribe button */
+    border-color: #ADD8E6; /* Red border on hover for subscribe button */
+    transform: scale(1.1); /* Button scale on hover for an animation effect */
+    box-shadow: 0px 0px 10px rgba(240, 6, 6, 0.5); /* Red box shadow on hover */
+  }
+  
+  /* Footer text color */
+  .footer-text {
+    color: #fff;
+  }
+  
+  .footer-text a {
+    color: #ADD8E6; /* Text color for footer links */
+  }
+  
+  .footer-text a:hover {
+    color: #fff; /* Text color on hover for footer links */
+  }
+
+  /* Add this CSS to your footer stylesheet (footer.css) */
+
+.fade-in {
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadeIn 0.5s ease forwards;
+  }
+  
+  .slide-in {
+    opacity: 0;
+    transform: translateX(20px);
+    animation: slideIn 0.5s ease forwards;
+  }
+  
+  @keyframes fadeIn {
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  @keyframes slideIn {
+    to {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+  
